@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project]
+name = "lotr_api_sdk"  # Change to your package name
+version = "0.1.0"  # Update your version
+description = "SDK for Lord Of The Ring API"
+readme = "README.md"
+authors = [{ name = "Venant Tang", email = "venant_tang@hotmail.com" }]
+license = { file = "LICENSE.txt" }
+requires-python = ">=3.8"
+dependencies = [
+    "aiohttp==3.11.12",
+    "Requests==2.32.3"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/yourrepository"
+Documentation = "https://yourdocs.com"
+Source = "https://github.com/yourusername/yourrepository"
+Issues = "https://github.com/yourusername/yourrepository/issues"
