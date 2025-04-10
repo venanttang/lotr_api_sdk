@@ -44,11 +44,11 @@ Detail could be found in the link https://the-one-api.dev/documentation#5
 ### Steps for install & setup
 1. Download the source code to your local directory of your machine 
 ```
-gh repo clone hatchways-community/lib-lab-take-home-project-sr-f44374ea122544ba94d92944bba1fc73
+gh repo clone venanttang/lotr_api_sdk
 ```
 2. Open the command prompt (e.g. terminal app for mac user) and go there
 ```
-cd lib-lab-take-home-project-sr-f44374ea122544ba94d92944bba1fc73
+cd lotr_api_sdk
 ```
 3. Install it
 ```
@@ -215,7 +215,7 @@ Under the tests folder, it consists of 1 test suite with 2 test cases in it.
 1. Launch a command prompt (e.g terminal on mac).
 2. Open a command prompt (e.g. terminal app for mac) and go to the project folder.
 ```
-e.g. cd /Users/abc/liblab/lib-lab-take-home-project-sr-f44374ea122544ba94d92944bba1fc73
+e.g. cd /Users/$USER_NAME/venanttang/lotr_api_sdk
 ```
 3. Run the unittest command
 ```
