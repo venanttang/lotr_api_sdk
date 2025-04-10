@@ -1,1 +1,1 @@
-# lor_api_sdk
+# lotr_api_sdk
